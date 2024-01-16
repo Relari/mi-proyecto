@@ -92,10 +92,9 @@ Esta estructura ayuda a mantener una clara separación de responsabilidades y fa
 | Descripcion | Verbo Http | Endpoint | Status Code |
 | - | - | - | - |
 | Crear un usuario | POST | /v1/usuarios | 201 |
-
-* Ejemplos:
-  * 
-  * Obtener todos los usuarios: GET /v1/usuarios
-  * Obtener un usuario por ID: GET /v1/usuarios/{id}
-  * Actualizar un usuario: PUT /v1/usuarios/{id}
-  * Eliminar un usuario: DELETE /v1/usuarios/{id}
+| Obtener todos los usuarios | GET | /v1/usuarios | 200 |
+| Obtener un usuario por ID | GET | /v1/usuarios/{id} | 200 |
+| Actualizar un usuario | PUT | /v1/usuarios/{id} | 200 |
+| Eliminar un usuario | DELETE | /v1/usuarios/{id} | 204 |
+| Activar un usuario | PATCH | /v1/usuarios/{id}/activar | 204 |
+| Inactivar un usuario | PATCH | /v1/usuarios/{id}/inactivar | 204 |
