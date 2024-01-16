@@ -84,3 +84,13 @@ Gestiona las solicitudes HTTP y las respuestas correspondientes.
 * Define interfaces de repositorio que extienden JpaRepository u otras interfaces proporcionadas por Spring Data.
 
 Esta estructura ayuda a mantener una clara separación de responsabilidades y facilita la escalabilidad y mantenimiento del código.
+
+## Microservicio de Usuarios:
+* Nombre: usuario-service
+* Recurso: /v1/usuarios
+* Ejemplos:
+  * Crear un usuario: POST /v1/usuarios
+Obtener todos los usuarios: GET /v1/usuarios
+Obtener un usuario por ID: GET /v1/usuarios/{id}
+Actualizar un usuario: PUT /v1/usuarios/{id}
+Eliminar un usuario: DELETE /v1/usuarios/{id}
