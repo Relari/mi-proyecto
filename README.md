@@ -98,3 +98,19 @@ Esta estructura ayuda a mantener una clara separación de responsabilidades y fa
 | Eliminar un usuario | DELETE | /v1/usuarios/{id} | 204 |
 | Activar un usuario | PATCH | /v1/usuarios/{id}/activar | 204 |
 | Inactivar un usuario | PATCH | /v1/usuarios/{id}/inactivar | 204 |
+
+```json
+{
+  "id": 1,
+  "nombre": "Nombre Usuario",
+  "apellido": "Apellido Usuario",
+  "genero": "Femenino",
+  "correoElectronico": "usuario@example.com",
+  "telefono": "+1234567890",
+  "fechaNacimiento": "1990-01-01",
+  "estadoCivil": "Soltero/a",
+  "nacionalidad": "Nacionalidad Ejemplo",
+  "activo": true
+}
+
+```
