@@ -88,9 +88,14 @@ Esta estructura ayuda a mantener una clara separación de responsabilidades y fa
 ## Microservicio de Usuarios:
 * Nombre: usuario-service
 * Recurso: /v1/usuarios
+
+| Descripcion | Verbo Http | Endpoint | Status Code |
+| - | - | - | - |
+| Crear un usuario | POST | /v1/usuarios | 201 |
+
 * Ejemplos:
-  * Crear un usuario: POST /v1/usuarios
-Obtener todos los usuarios: GET /v1/usuarios
-Obtener un usuario por ID: GET /v1/usuarios/{id}
-Actualizar un usuario: PUT /v1/usuarios/{id}
-Eliminar un usuario: DELETE /v1/usuarios/{id}
+  * 
+  * Obtener todos los usuarios: GET /v1/usuarios
+  * Obtener un usuario por ID: GET /v1/usuarios/{id}
+  * Actualizar un usuario: PUT /v1/usuarios/{id}
+  * Eliminar un usuario: DELETE /v1/usuarios/{id}
